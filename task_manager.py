@@ -81,7 +81,7 @@ e - exit
         with open('tasks.txt', 'r') as f:
             for line in f:
                 # Split the line
-                task_username, task_title, task_description, task_date, task_due, task_completed = line.strip().split(', ')
+                task_username, task_title, task_description, task_due, task_date, task_completed = line.strip().split(', ')
                 print(f'''
 Assigned to: {task_username}
 Task title: {task_title}
