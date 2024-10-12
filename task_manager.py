@@ -47,7 +47,7 @@ e - exit
         # Ask user to input new username, password and confirm password
         new_username = input('Enter a new username: ')
         new_password = input('Enter a new password: ')
-        confirm_password = input('Confirm new passowrd: ')
+        confirm_password = input('Confirm new password: ')
 
         # Use an if statement to check the password matches confirmed password
         if new_password == confirm_password:
